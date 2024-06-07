@@ -1,18 +1,18 @@
 import {
   backendURL,
-  // showNavAdminPages,
+  showNavAdminPages,
   successNotification,
   errorNotification,
-  // getLoggedUser,
+  getLoggedUser,
 } from "../utils/utils.js";
 
 // Get Logged User Info
-// getLoggedUser();
+getLoggedUser();
 
 // Get Admin Pages
-// showNavAdminPages();
+showNavAdminPages();
 
-// // Logout Btn
+// Logout Btn
 const btn_logout = document.getElementById("btn_logout");
 btn_logout.onclick = async () => {
   // Access Logout API Endpoint

@@ -26,14 +26,14 @@
       crossorigin="anonymous"
     ></script>
 
-    <script type="module" src="js/dashboard/dashboard.js"></script>
+    <script type="module" src="js/system/dashboard.js"></script>
     <script src="js/utils/scripts.js" defer></script>
   </head>
   <body class="sb-nav-fixed">
     <!-- Top Navigation -->
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-primary">
       <!-- Navbar Brand-->
-      <a class="navbar-brand ps-3" href="index.html">TechCare</a>
+      <a class="navbar-brand ps-5" href="index.html">TechCare</a>
       <!-- Sidebar Toggle-->
       <button
         class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
@@ -75,7 +75,10 @@
     <div id="layoutSidenav">
       <!-- Side Navigation -->
       <div id="layoutSidenav_nav">
-        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+        <nav
+          class="px-4 sb-sidenav accordion sb-sidenav-dark"
+          id="sidenavAccordion"
+        >
           <div class="sb-sidenav-menu">
             <div class="nav">
               <a class="nav-link active" href="dashboard.html">
@@ -89,15 +92,39 @@
               <div id="nav_admin_pages"></div>
 
               <div class="sb-sidenav-menu-heading">Pages</div>
-              <a class="nav-link" href="">
+              <!-- <a class="nav-link" href="register.html">
                 <div class="sb-nav-link-icon">
-                  <i class="fas fa-file-powerpoint"></i>
+                  <i class="fas fa-file-clipboard"></i>
                 </div>
-                Presentation
-              </a>
-              <a class="nav-link" href="">
+                New User
+              </a> -->
+              <a class="nav-link" href="medicines.html">
                 <div class="sb-nav-link-icon">
-                  <i class="fas fa-note-sticky"></i>
+                  <i class="fa-solid fa-prescription-bottle-medical"></i>
+                </div>
+                Medicines
+              </a>
+              <a class="nav-link" href="supplier.html">
+                <div class="sb-nav-link-icon">
+                  <i class="fa-solid fa-boxes-packing"></i>
+                </div>
+                Supplier
+              </a>
+              <!-- <a class="nav-link" href="stocks.html">
+                <div class="sb-nav-link-icon">
+                  <i class="fa-solid fa-cubes"></i>
+                </div>
+                Stocks
+              </a>
+              <a class="nav-link" href="branch.html">
+                <div class="sb-nav-link-icon">
+                  <i class="fa-solid fa-code-branch"></i>
+                </div>
+                Branch
+              </a> -->
+              <a class="nav-link" href="inventory.html">
+                <div class="sb-nav-link-icon">
+                  <i class="fa-solid fa-warehouse"></i>
                 </div>
                 Inventory
               </a>

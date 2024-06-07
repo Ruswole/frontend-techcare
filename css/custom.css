@@ -13,3 +13,53 @@
 .sb-sidenav-dark {
   background-color: #14967f !important;
 }
+
+.sb-sidenav-footer {
+  background-color: #14967f !important;
+}
+
+.sb-sidenav .nav-link {
+  font-size: 20px; /* Increase the font size of the nav links */
+}
+
+.sb-topnav {
+  margin-left: -20px; /* Adjust the value as needed to move the element to the left */
+}
+
+#btn_logout:hover {
+  background-color: white; /* Background color on hover */
+  color: #095d7e !important; /* Text color on hover */
+}
+
+.form-floating {
+  background-color: #f0f0f0; /* Background color of the form container */
+}
+
+.form-floating input {
+  background-color: #fff; /* Background color of the input field */
+  border-color: #095d7e !important; /* Border color of the input field */
+}
+
+.form-floating input:focus {
+  background-color: #e9f5ff; /* Background color of the input field on focus */
+  color: #000; /* Text color of the input field on focus */
+  border-color: #095d7e !important; /* Border color of the input field on focus */
+}
+
+.form-floating input:focus + label {
+  color: #095d7e !important; /* Text color of the label on focus */
+}
+
+/* Your CSS code here */
+.my-dropdown-button:hover {
+  color: #000; /* Text color of the input field on focus */
+  border-color: #095d7e !important; /* Change to your desired color */
+}
+.my-dropdown-menu:hover {
+  border-color: #095d7e !important; /* Change to your desired color */
+}
+.my-dropdown-menu .dropdown-item:hover {
+  background-color: #e9f5ff; /* Background color of the input field on focus */
+  color: #000; /* Text color of the input field on focus */
+  border-color: #095d7e !important; /* Change to your desired color */
+}
