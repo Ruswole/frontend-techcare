@@ -26,6 +26,8 @@ form_login.onsubmit = async (e) => {
     method: "POST",
     headers: {
       Accept: "application/json",
+      "ngrok-skip-browser-warning": "62490",
+      Authorization: "Bearer " + localStorage.getItem("token"),
     },
     body: formData,
   });
