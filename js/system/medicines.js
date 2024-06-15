@@ -158,8 +158,9 @@ form_slides.onsubmit = async (e) => {
     response = await fetch(backendURL + "/api/medicine", {
       method: "POST",
       headers: {
-        Accept: "application/json",
         Authorization: "Bearer " + localStorage.getItem("token"),
+        Accept: "application/json",
+        "ngrok-skip-browser-warning": "any",
       },
       body: formData,
     });
