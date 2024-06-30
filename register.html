@@ -10,6 +10,21 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Register - SB Admin</title>
+    <!-- hybrid -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- .. -->
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/custom.css" rel="stylesheet" />
     <script
@@ -18,125 +33,152 @@
     ></script>
 
     <script src="js/auth/register.js" type="module"></script>
+    <style>
+      .go-back-btn {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 1000;
+        font-size: 1.8rem;
+        color: #ffffff;
+        background-color: transparent;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .go-back-btn:hover {
+        color: #51eaea;
+        text-decoration: none;
+      }
+    </style>
   </head>
-  <body class="bg-secondary">
+  <body class="bg-img">
+    <a href="index.html" class="go-back-btn">TechCare</a>
     <div id="layoutAuthentication">
       <div id="layoutAuthentication_content">
-        <main>
-          <div class="container">
-            <div class="row justify-content-center align-items-center vh-100">
-              <div class="col-md-6 col-lg-5">
-                <!-- Register Card -->
-                <div class="card shadow-lg border-0 rounded-lg mt-5">
-                  <div class="card-header">
-                    <h3 class="text-center font-weight-light my-4">
-                      Create Account
-                    </h3>
+        <main class="d-flex w-100">
+          <div class="container d-flex flex-column">
+            <div class="row vh-100">
+              <div
+                class="col-sm-10 col-md-8 col-lg-6 col-xl-5 mx-auto d-table h-100"
+              >
+                <div class="d-table-cell align-middle">
+                  <div class="text-center mt-4">
+                    <h1 class="h2">Get started</h1>
+                    <p class="lead">
+                      Start creating the best possible user experience for you
+                      customers.
+                    </p>
                   </div>
-                  <div class="card-body">
-                    <!-- Notifications -->
-                    <div class="alert alert-success d-none" role="alert"></div>
-                    <div class="alert alert-danger d-none" role="alert"></div>
-                    <!-- Registration Form -->
-                    <form id="form_register">
-                      <div class="row mb-3">
-                        <div class="col-md-6">
-                          <div class="form-floating mb-3 mb-md-0">
-                            <!-- First Name Field -->
-                            <input
-                              class="form-control"
-                              id="firstname"
-                              name="firstname"
-                              type="text"
-                              placeholder="First Name"
-                              required
-                            />
-                            <label for="firstname">First Name</label>
+
+                  <div class="card">
+                    <div class="card-body">
+                      <!-- Notifications -->
+                      <div
+                        class="alert alert-success d-none"
+                        role="alert"
+                      ></div>
+                      <div class="alert alert-danger d-none" role="alert"></div>
+                      <!-- Registration Form -->
+                      <form id="form_register">
+                        <div class="row mb-3">
+                          <div class="col-md-6">
+                            <div class="form-floating mb-3 mb-md-0">
+                              <!-- First Name Field -->
+                              <input
+                                class="form-control"
+                                id="firstname"
+                                name="firstname"
+                                type="text"
+                                placeholder="First Name"
+                                required
+                              />
+                              <label for="firstname">First Name</label>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-floating mb-md-0">
+                              <!-- Last Name Field -->
+                              <input
+                                class="form-control"
+                                id="lastname"
+                                name="lastname"
+                                type="text"
+                                placeholder="Last Name"
+                                required
+                              />
+                              <label for="lastname">Last Name</label>
+                            </div>
                           </div>
                         </div>
 
-                        <div class="col-md-6">
-                          <div class="form-floating mb-md-0">
-                            <!-- Last Name Field -->
-                            <input
-                              class="form-control"
-                              id="lastname"
-                              name="lastname"
-                              type="text"
-                              placeholder="Last Name"
-                              required
-                            />
-                            <label for="lastname">Last Name</label>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="form-floating mb-3">
-                        <!-- Email Field -->
-                        <input
-                          class="form-control"
-                          id="email"
-                          name="email"
-                          type="email"
-                          placeholder="Email Address"
-                          required
-                        />
-                        <label for="email">Email Address</label>
-                      </div>
-
-                      <div class="row mb-3">
-                        <div class="col-md-6">
-                          <div class="form-floating mb-3 mb-md-0">
-                            <!-- Password Field -->
-                            <input
-                              class="form-control"
-                              id="password"
-                              name="password"
-                              type="password"
-                              placeholder="Password"
-                              required
-                            />
-                            <label for="password">Password</label>
-                          </div>
+                        <div class="form-floating mb-3">
+                          <!-- Email Field -->
+                          <input
+                            class="form-control"
+                            id="email"
+                            name="email"
+                            type="email"
+                            placeholder="Email Address"
+                            required
+                          />
+                          <label for="email">Email Address</label>
                         </div>
 
-                        <div class="col-md-6">
-                          <div class="form-floating mb-3 mb-md-0">
-                            <!-- Password Confirmation -->
-                            <input
-                              class="form-control"
-                              id="password_confirmation"
-                              name="password_confirmation"
-                              type="password"
-                              placeholder="Confirm password"
-                              required
-                            />
-                            <label for="password_confirmation"
-                              >Confirm Password</label
+                        <div class="row mb-3">
+                          <div class="col-md-6">
+                            <div class="form-floating mb-3 mb-md-0">
+                              <!-- Password Field -->
+                              <input
+                                class="form-control"
+                                id="password"
+                                name="password"
+                                type="password"
+                                placeholder="Password"
+                                required
+                              />
+                              <label for="password">Password</label>
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-floating mb-3 mb-md-0">
+                              <!-- Password Confirmation -->
+                              <input
+                                class="form-control"
+                                id="password_confirmation"
+                                name="password_confirmation"
+                                type="password"
+                                placeholder="Confirm password"
+                                required
+                              />
+                              <label for="password_confirmation"
+                                >Confirm Password</label
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mt-4 mb-0">
+                          <div class="d-grid">
+                            <button
+                              class="btn btn-primary btn-block d-flex align-items-center justify-content-center"
+                              type="submit"
                             >
+                              Create Account
+                            </button>
                           </div>
                         </div>
-                      </div>
-                      <div class="mt-4 mb-0">
-                        <div class="d-grid">
-                          <button
-                            class="btn btn-primary btn-block d-flex align-items-center justify-content-center"
-                            type="submit"
-                          >
-                            Create Account
-                          </button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="card-footer text-center py-3">
-                    <div class="small">
-                      Have an account?
-                      <a href="index.html">Go to login</a>
+                      </form>
                     </div>
                   </div>
+                  <div class="text-center mb-3">
+                    Already have account?
+                    <a href="login.html">Log In</a>
+                  </div>
                 </div>
-                <!-- End of Register Card -->
               </div>
             </div>
           </div>

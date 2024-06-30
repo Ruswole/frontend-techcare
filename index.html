@@ -1,107 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>TechCare</title>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Login - TechCare |Admin</title>
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/custom.css" rel="stylesheet" />
-    <script
-      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <script type="module" src="js/auth/login.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="bg-secondary">
-    <div id="layoutAuthentication">
-      <div id="layoutAuthentication_content">
-        <main>
+
+  <body>
+    <div class="site-wrap">
+      <div class="site-navbar py-2">
+        <div class="search-wrap">
           <div class="container">
-            <div class="row justify-content-center align-items-center vh-100">
-              <div class="col-md-6 col-lg-5">
-                <!-- Login Card -->
-                <div class="card shadow-lg border-0 rounded-lg mt-5">
-                  <div class="card-header">
-                    <h3 class="text-center font-weight-light my-4">Welcome!</h3>
-                    <p class="ms-3">Please enter your details:</p>
-                  </div>
-                  <div class="card-body">
-                    <!-- Notifications -->
-                    <div class="alert alert-success d-none" role="alert"></div>
-                    <div class="alert alert-danger d-none" role="alert"></div>
-                    <!-- Login Form -->
-                    <form id="form_login">
-                      <div class="form-floating mb-3">
-                        <!-- Email Field -->
-                        <input
-                          class="form-control"
-                          id="email"
-                          type="email"
-                          name="email"
-                          placeholder="Email Address"
-                          required
-                        />
-                        <label for="email">Email Address</label>
-                      </div>
+            <a href="#" class="search-close js-search-close"
+              ><span class="icon-close2"></span
+            ></a>
+            <form action="#" method="post">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search keyword and hit enter..."
+              />
+            </form>
+          </div>
+        </div>
 
-                      <div class="form-floating mb-3">
-                        <!-- Password Field -->
-                        <input
-                          class="form-control"
-                          id="password"
-                          type="password"
-                          name="password"
-                          placeholder="Password"
-                          required
-                        />
-                        <label for="password">Password</label>
-                      </div>
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="logo">
+              <div class="site-logo">
+                <a href="index.html" class="js-logo-clone">TechCare</a>
+              </div>
+            </div>
+            <div class="main-nav d-none d-lg-block">
+              <nav
+                class="site-navigation text-right text-md-center"
+                role="navigation"
+              >
+                <ul class="site-menu js-clone-nav d-none d-lg-block">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="shop.html">Store</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="register.html">Sign up</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
 
-                      <div class="d-grid mt-4 mb-0">
-                        <button
-                          class="btn btn-primary btn-block d-flex align-items-center justify-content-center"
-                          type="submit"
-                        >
-                          Login
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="card-footer text-center py-3">
-                    <div class="small">
-                      Need an account? <a href="register.html">Sign up!</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of Login Card -->
+      <div
+        class="site-blocks-cover"
+        style="background-image: url('images/hero_1.jpg')"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 mx-auto order-lg-2 align-self-center">
+              <div class="site-block-cover-content text-center">
+                <h2 class="sub-title">
+                  Effective Medicine, New Medicine Everyday
+                </h2>
+                <h1>Welcome To TechCare</h1>
+                <p>
+                  <a href="shop.html" class="btn btn-primary px-5 py-3"
+                    >Shop Now</a
+                  >
+                </p>
               </div>
             </div>
           </div>
-        </main>
+        </div>
       </div>
 
-      <!-- Footer -->
-      <div id="layoutAuthentication_footer">
-        <footer class="py-4 bg-primary mt-auto">
-          <div class="container-fluid px-4">
-            <div class="d-flex align-items-center justify-content-center small">
-              <div class="text-white">Copyright &copy; TechCare App 2023</div>
+      <div class="site-section">
+        <div class="container">
+          <div class="row align-items-stretch section-overlap">
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+              <div class="banner-wrap bg-primary h-100">
+                <a href="#" class="h-100">
+                  <h5>
+                    Free <br />
+                    Shipping
+                  </h5>
+                  <p>
+                    Amet sit amet dolor
+                    <strong
+                      >Lorem, ipsum dolor sit amet consectetur
+                      adipisicing.</strong
+                    >
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+              <div class="banner-wrap h-100">
+                <a href="#" class="h-100">
+                  <h5>
+                    Season <br />
+                    Sale 50% Off
+                  </h5>
+                  <p>
+                    Amet sit amet dolor
+                    <strong
+                      >Lorem, ipsum dolor sit amet consectetur
+                      adipisicing.</strong
+                    >
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+              <div class="banner-wrap bg-warning h-100">
+                <a href="#" class="h-100">
+                  <h5>
+                    Buy <br />
+                    A Gift Card
+                  </h5>
+                  <p>
+                    Amet sit amet dolor
+                    <strong
+                      >Lorem, ipsum dolor sit amet consectetur
+                      adipisicing.</strong
+                    >
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
-        </footer>
+        </div>
       </div>
-      <!-- End of Footer -->
+
+      <div class="site-section">
+        <div class="container">
+          <div class="row">
+            <div class="title-section text-center col-12">
+              <h2 class="text-uppercase">Popular Products</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6 col-lg-4 text-center item mb-4">
+              <span class="tag">Sale</span>
+              <a href="shop-single.html">
+                <img src="images/product_01.png" alt="Image"
+              /></a>
+              <h3 class="text-dark"><a href="shop-single.html">Bioderma</a></h3>
+              <p class="price"><del>950.00</del> &mdash; Php 550.00</p>
+            </div>
+            <div class="col-sm-6 col-lg-4 text-center item mb-4">
+              <a href="shop-single.html">
+                <img src="images/product_02.png" alt="Image"
+              /></a>
+              <h3 class="text-dark">
+                <a href="shop-single.html">Chanca Piedra</a>
+              </h3>
+              <p class="price">Php 700.00</p>
+            </div>
+            <div class="col-sm-6 col-lg-4 text-center item mb-4">
+              <a href="shop-single.html">
+                <img src="images/product_03.png" alt="Image"
+              /></a>
+              <h3 class="text-dark">
+                <a href="shop-single.html">Umcka Cold Care</a>
+              </h3>
+              <p class="price">Php 120.00</p>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 text-center item mb-4">
+              <a href="shop-single.html">
+                <img src="images/product_04.png" alt="Image"
+              /></a>
+              <h3 class="text-dark">
+                <a href="shop-single.html">Cetyl Pure</a>
+              </h3>
+              <p class="price"><del>450.00</del> &mdash; Php 260.00</p>
+            </div>
+            <div class="col-sm-6 col-lg-4 text-center item mb-4">
+              <a href="shop-single.html">
+                <img src="images/product_05.png" alt="Image"
+              /></a>
+              <h3 class="text-dark"><a href="shop-single.html">CLA Core</a></h3>
+              <p class="price">Php 380.00</p>
+            </div>
+            <div class="col-sm-6 col-lg-4 text-center item mb-4">
+              <span class="tag">Sale</span>
+              <a href="shop-single.html">
+                <img src="images/product_06.png" alt="Image"
+              /></a>
+              <h3 class="text-dark">
+                <a href="shop-single.html">Poo Pourri</a>
+              </h3>
+              <p class="price"><del>890</del> &mdash; Php 380.00</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-12 text-center">
+              <a href="shop.html" class="btn btn-primary px-4 py-3"
+                >View All Products</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="title-section text-center col-12">
+              <h2 class="text-uppercase">New Products</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 block-3 products-wrap">
+              <div class="nonloop-block-3 owl-carousel">
+                <div class="text-center item mb-4">
+                  <a href="shop-single.html">
+                    <img src="images/product_03.png" alt="Image"
+                  /></a>
+                  <h3 class="text-dark">
+                    <a href="shop-single.html">Umcka Cold Care</a>
+                  </h3>
+                  <p class="price">Php 150.00</p>
+                </div>
+
+                <div class="text-center item mb-4">
+                  <a href="shop-single.html">
+                    <img src="images/product_01.png" alt="Image"
+                  /></a>
+                  <h3 class="text-dark">
+                    <a href="shop-single.html">Umcka Cold Care</a>
+                  </h3>
+                  <p class="price">Php 150.00</p>
+                </div>
+
+                <div class="text-center item mb-4">
+                  <a href="shop-single.html">
+                    <img src="images/product_02.png" alt="Image"
+                  /></a>
+                  <h3 class="text-dark">
+                    <a href="shop-single.html">Umcka Cold Care</a>
+                  </h3>
+                  <p class="price">Php 150.00</p>
+                </div>
+
+                <div class="text-center item mb-4">
+                  <a href="shop-single.html">
+                    <img src="images/product_04.png" alt="Image"
+                  /></a>
+                  <h3 class="text-dark">
+                    <a href="shop-single.html">Umcka Cold Care</a>
+                  </h3>
+                  <p class="price">Php 150.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="site-section bg-secondary bg-image"
+        style="background-image: url('images/bg_2.jpg')"
+      >
+        <div class="container">
+          <div class="row align-items-stretch">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <a
+                href="#"
+                class="banner-1 h-100 d-flex"
+                style="background-image: url('images/bg_1.jpg')"
+              >
+                <div class="banner-1-inner align-self-center">
+                  <h2>TechCare Products</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestiae ex ad minus rem odio voluptatem.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <a
+                href="#"
+                class="banner-1 h-100 d-flex"
+                style="background-image: url('images/bg_2.jpg')"
+              >
+                <div class="banner-1-inner ml-auto align-self-center">
+                  <h2>Rated by Experts</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestiae ex ad minus rem odio voluptatem.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+              <div class="block-7">
+                <h3 class="footer-heading mb-4">About Us</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+                  quae reiciendis distinctio voluptates sed dolorum excepturi
+                  iure eaque, aut unde.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+              <h3 class="footer-heading mb-4">Quick Links</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">Supplements</a></li>
+                <li><a href="#">Vitamins</a></li>
+                <li><a href="#">Diet &amp; Nutrition</a></li>
+                <li><a href="#">Tea &amp; Coffee</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="block-5 mb-5">
+                <h3 class="footer-heading mb-4">Contact Info</h3>
+                <ul class="list-unstyled">
+                  <li class="address">
+                    Caraga State University, Amapayon, Butuan City, Agusan Del
+                    Norte, PH
+                  </li>
+                  <li class="phone">
+                    <a href="tel://23923929210">09458696074</a>
+                  </li>
+                  <li class="email">TechCare@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5 mt-5 text-center">
+            <div class="col-md-12">
+              <p>Copyright © TechCare App 2023</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

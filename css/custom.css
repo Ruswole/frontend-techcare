@@ -1,21 +1,22 @@
+
 .btn-primary {
-  background-color: #095d7e !important;
+  background-color: #51eaea !important;
 }
 
 .bg-primary {
-  background-color: #095d7e !important;
+  background-color: #66ced1 !important;
 }
 
 .bg-secondary {
-  background-color: #f1f9ff !important;
+  background-color: #cceff0 !important;
 }
 
 .sb-sidenav-dark {
-  background-color: #14967f !important;
+  background-color: #51eaea !important;
 }
 
 .sb-sidenav-footer {
-  background-color: #14967f !important;
+  background-color: #51eaea !important;
 }
 
 .sb-sidenav .nav-link {
@@ -27,8 +28,8 @@
 }
 
 #btn_logout:hover {
-  background-color: white; /* Background color on hover */
-  color: #095d7e !important; /* Text color on hover */
+  background-color: #cceff0; /* Background color on hover */
+  color: #51eaead6 !important; /* Text color on hover */
 }
 
 .form-floating {
@@ -37,29 +38,158 @@
 
 .form-floating input {
   background-color: #fff; /* Background color of the input field */
-  border-color: #095d7e !important; /* Border color of the input field */
+  border-color: #51eaea !important; /* Border color of the input field */
 }
 
 .form-floating input:focus {
   background-color: #e9f5ff; /* Background color of the input field on focus */
   color: #000; /* Text color of the input field on focus */
-  border-color: #095d7e !important; /* Border color of the input field on focus */
+  border-color: #51eaea !important; /* Border color of the input field on focus */
 }
 
 .form-floating input:focus + label {
-  color: #095d7e !important; /* Text color of the label on focus */
+  color: #51eaea !important; /* Text color of the label on focus */
 }
 
 /* Your CSS code here */
 .my-dropdown-button:hover {
   color: #000; /* Text color of the input field on focus */
-  border-color: #095d7e !important; /* Change to your desired color */
+  border-color: #51eaea !important; /* Change to your desired color */
 }
 .my-dropdown-menu:hover {
-  border-color: #095d7e !important; /* Change to your desired color */
+  border-color: #51eaea !important; /* Change to your desired color */
 }
 .my-dropdown-menu .dropdown-item:hover {
-  background-color: #e9f5ff; /* Background color of the input field on focus */
+  background-color: #cceff0; /* Background color of the input field on focus */
   color: #000; /* Text color of the input field on focus */
-  border-color: #095d7e !important; /* Change to your desired color */
+  border-color: #51eaea !important; /* Change to your desired color */
 }
+
+.bg-img {
+  background: url("bg1.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+
+
+/*Calendar //
+/* Import Google font - Poppins */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: center;
+  min-height: 100vh;
+}
+.wrapper {
+  width: 450px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+.wrapper header {
+  display: flex;
+  align-items: center;
+  padding: 25px 30px 10px;
+  justify-content: space-between;
+}
+header .icons {
+  display: flex;
+}
+header .icons span {
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  color: #878787;
+  text-align: center;
+  line-height: 38px;
+  font-size: 1.9rem;
+  user-select: none;
+  border-radius: 50%;
+}
+.icons span:last-child {
+  margin-right: -10px;
+}
+header .icons span:hover {
+  background: #f2f2f2;
+}
+header .current-date {
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+.calendar {
+  padding: 20px;
+}
+.calendar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+.calendar .days {
+  margin-bottom: 20px;
+}
+.calendar li {
+  color: #333;
+  width: calc(100% / 7);
+  font-size: 1.07rem;
+}
+.calendar .weeks li {
+  font-weight: 500;
+  cursor: default;
+}
+.calendar .days li {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+.days li.inactive {
+  color: #aaa;
+}
+.days li.active {
+  color: #fff;
+}
+.days li::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.days li.active::before {
+  background: #00adb3;
+}
+.days li:not(.active):hover::before {
+  background: #f2f2f2;
+} */
+
+/*Calendar
+
+

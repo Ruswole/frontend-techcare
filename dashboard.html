@@ -9,10 +9,25 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>TechCare | Dashboard</title>
 
     <link rel="icon" type="image/x-icon" href="/assets/img/logo.png" />
+    <link
+    href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/jquery-ui.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css"
@@ -20,6 +35,31 @@
     />
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- <div class="wrapper">
+      <header>
+        <p class="current-date"></p>
+        <div class="icons">
+          <span id="prev" class="material-symbols-rounded">chevron_left</span>
+          <span id="next" class="material-symbols-rounded">chevron_right</span>
+        </div>
+      </header>
+      <div class="calendar">
+        <ul class="weeks">
+          <li>Sun</li>
+          <li>Mon</li>
+          <li>Tue</li>
+          <li>Wed</li>
+          <li>Thu</li>
+          <li>Fri</li>
+          <li>Sat</li>
+        </ul>
+        <ul class="days"></ul>
+      </div>
+    </div> -->
 
     <script
       src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
@@ -38,7 +78,7 @@
       <button
         class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
         id="sidebarToggle"
-        href="#!"
+        aria-label="Toggle navigation"
       >
         <i class="fas fa-bars"></i>
       </button>
@@ -56,13 +96,13 @@
             role="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
-            ><i class="fas fa-user fa-fw"></i
-          ></a>
+          >
+            <i class="fas fa-user fa-fw"></i>
+          </a>
           <ul
             class="dropdown-menu dropdown-menu-end"
             aria-labelledby="navbarDropdown"
           >
-            <!-- <li><hr class="dropdown-divider" /></li> -->
             <li>
               <a class="dropdown-item" href="#" id="btn_logout">Logout</a>
             </li>
@@ -75,10 +115,7 @@
     <div id="layoutSidenav">
       <!-- Side Navigation -->
       <div id="layoutSidenav_nav">
-        <nav
-          class="px-4 sb-sidenav accordion sb-sidenav-dark"
-          id="sidenavAccordion"
-        >
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
           <div class="sb-sidenav-menu">
             <div class="nav">
               <a class="nav-link active" href="dashboard.html">
@@ -87,44 +124,24 @@
                 </div>
                 Dashboard
               </a>
-
               <!-- Admin Pages -->
               <div id="nav_admin_pages"></div>
-
               <div class="sb-sidenav-menu-heading">Pages</div>
-              <!-- <a class="nav-link" href="register.html">
-                <div class="sb-nav-link-icon">
-                  <i class="fas fa-file-clipboard"></i>
-                </div>
-                New User
-              </a> -->
               <a class="nav-link" href="medicines.html">
                 <div class="sb-nav-link-icon">
-                  <i class="fa-solid fa-prescription-bottle-medical"></i>
+                  <i class="fas fa-prescription-bottle-medical"></i>
                 </div>
                 Medicines
               </a>
               <a class="nav-link" href="supplier.html">
                 <div class="sb-nav-link-icon">
-                  <i class="fa-solid fa-boxes-packing"></i>
+                  <i class="fas fa-boxes-packing"></i>
                 </div>
                 Supplier
               </a>
-              <!-- <a class="nav-link" href="stocks.html">
-                <div class="sb-nav-link-icon">
-                  <i class="fa-solid fa-cubes"></i>
-                </div>
-                Stocks
-              </a>
-              <a class="nav-link" href="branch.html">
-                <div class="sb-nav-link-icon">
-                  <i class="fa-solid fa-code-branch"></i>
-                </div>
-                Branch
-              </a> -->
               <a class="nav-link" href="inventory.html">
                 <div class="sb-nav-link-icon">
-                  <i class="fa-solid fa-warehouse"></i>
+                  <i class="fas fa-warehouse"></i>
                 </div>
                 Inventory
               </a>
